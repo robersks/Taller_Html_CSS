@@ -1,0 +1,68 @@
+/* ___________________________________________________________________________________________________________________ */
+/* Header */
+.navbar-brand {
+    color: #ff702a !important;
+}
+     
+/* FIN Header */
+/* ___________________________________________________________________________________________________________________ */
+/* BODY  */
+p {
+    color: #fff;
+}
+
+body {
+    background-color: #1e1d2b;
+}
+
+
+
+/* ___________________________________________________________________________________________________________________ */ /* seccion portada  */
+.sec_portada{
+    height:100vh ;
+}
+.sec_portada_contenedor{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.sec_portada_contenedor_izq{
+    background-color: aquamarine;
+    width: 50%;
+    overflow: hidden;
+    height: 500px;
+}
+.sec_portada_contenedor_der{
+    background-color: #ff702a;
+    width: 50%;
+    height: 100vh;
+
+    overflow: hidden; /* Oculta el desbordamiento de contenido */
+   
+    
+}
+
+.sec_portada_contenedor_der img{
+    max-height: 100%;
+    height: auto;
+    
+    
+}
+
+/* ___________________________________________________________________________________________________________________ */ /*  fin seccion portada  */
+
+
+
+@media screen and (max-width: 800px){
+    .sec_portada_contenedor{
+        flex-direction: column;
+    }
+
+    .sec_portada_contenedor_izq{
+        width: 100%;
+    }
+
+    .sec_portada_contenedor_der{
+        width: 100%;
+    }
+}
