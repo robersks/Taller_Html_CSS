@@ -15,8 +15,6 @@ body {
     background-color: #1e1d2b;
 }
 
-
-
 /* ___________________________________________________________________________________________________________________ */ /* seccion portada  */
 .sec_portada{
     height:100vh ;
@@ -29,27 +27,33 @@ body {
 .sec_portada_contenedor_izq{
     background-color: aquamarine;
     width: 50%;
-    overflow: hidden;
-    height: 500px;
+    overflow: hidden; /* Oculta el desbordamiento de contenido */
+    height: 100vh;
 }
 .sec_portada_contenedor_der{
     background-color: #ff702a;
     width: 50%;
     height: 100vh;
+    overflow: hidden; /* Oculta el desbordamiento de contenido */ 
 
-    overflow: hidden; /* Oculta el desbordamiento de contenido */
-   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     
 }
 
 .sec_portada_contenedor_der img{
-    max-height: 100%;
+    /* max-height: 100%;
+    height: auto; */
+
+    width: 50%;
     height: auto;
-    
+
     
 }
 
-/* ___________________________________________________________________________________________________________________ */ /*  fin seccion portada  */
+/* ___________________________________________________________________________________________________________________ */ /*  fin seccion home  */
 
 
 
@@ -65,4 +69,30 @@ body {
     .sec_portada_contenedor_der{
         width: 100%;
     }
+}
+
+
+/* ___________________________________________________________________________________________________________________ */ /* seccion about  */
+
+.sec_about{
+    background-color: red;
+    height: 100vh;
+}
+/* ___________________________________________________________________________________________________________________ */ /* seccion about  */
+
+.sec_menu{
+    background-color: yellowgreen;
+    height: 100vh;
+}
+/* ___________________________________________________________________________________________________________________ */ /* seccion about  */
+
+.sec_service{
+    background-color: blueviolet;
+    height: 100vh;
+}
+/* ___________________________________________________________________________________________________________________ */ /* seccion about  */
+
+.sec_contact{
+    background-color: green;
+    height: 100vh;
 }
