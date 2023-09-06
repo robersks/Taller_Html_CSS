@@ -1,7 +1,20 @@
+
+/* ___________________________________________________________________________________________________________________ */  /* Genericas*/
+.text_orange{
+    color:#ff702a 
+}
+.text_white{
+    color:#fff 
+}
+
 /* ___________________________________________________________________________________________________________________ */
 /* Header */
 .navbar-brand {
     color: #ff702a !important;
+}
+.navbar{
+    background-color: #2c2b47;
+    padding-left: 10%;
 }
      
 /* FIN Header */
@@ -25,10 +38,15 @@ body {
     width: 100%;
 }
 .sec_portada_contenedor_izq{
-    background-color: aquamarine;
+    background-color: black ;
     width: 50%;
     overflow: hidden; /* Oculta el desbordamiento de contenido */
     height: 100vh;
+
+   
+    
+    align-items: center;
+    padding-left: 10%;
 }
 .sec_portada_contenedor_der{
     background-color: #ff702a;
